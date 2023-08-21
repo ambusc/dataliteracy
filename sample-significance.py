@@ -12,12 +12,11 @@ st.expander('Expander')
 with st.expander('Tell me more about inferential statistics!'): 
     st.write('There are two types of statistics: (1) __descriptive__ statistics and (2) __inferential__ statistics. Descriptive statistics describe an ___entire___ set of data. Inferential statistics look ___only at a sample___ to make a conclusion about the population. For example, you survey 200 employees on their preferences for remote work, and use their responses to infer that the whole firm would, on average, respond the same way. The 200 employees would be your sample, and you would draw a conclusion about the whole firm (the population).')
 'Grab your detective hat, today it’s time to join Data Dan and sleuth out some statistics.'
-'It was Colonel Mustard in the study with a candlestick! Any good detective is skilled at sifting through clues to solve a mystery.'
 detective_dan = Image.open('detective-dan.png')
 st.image(detective_dan)
 'Like a detective sorts through evidence to paint a bigger picture, a data analyst might conduct research to make inferences about their area of study. A data analyst might use a __sample to draw inferences about a population__.'
 'Can we trust all the inferences we hear? Can we actually infer ___anything___ from our data?'
-'There are two main suspects carrying the secret to the strength of our inferences: __sample size__ and __significance. Help Data Dan investigate...'
+'There are two main suspects carrying the secret to the strength of our inferences: __sample size__ and __significance__. Help Data Dan investigate...'
 st.subheader('Suspect 1: Sampling')
 'Let’s talk sampling.'
 'First, __what is a sample__? A ___sample___ describes a portion of the population from which data is collected. The ___population___ is the __whole__ group being studied.'
