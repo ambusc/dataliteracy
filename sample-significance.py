@@ -1,7 +1,7 @@
 import streamlit as st 
 # from location import Image
 
-st.title('Data Literacy📖') 
+st.title('Data Literacy📖')
 st.subheader('Making Inferences: Sampling and Significance')
 st.caption('10 minute read. For questions contact Jordan @ DataGovernance@perkinscoie.com')
 
