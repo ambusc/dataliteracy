@@ -79,11 +79,13 @@ if st.checkbox("All of the above."):
 if st.checkbox("None of the above."):
     st.write('Correct! Great job! None of the options give you a random sample that would reflect the entire firm. Remember, samples need to appear as close to the population as possible.')
 
+st.divider()
 st.subheader('Be a sampling sleuth!')
 'Ask these questions to assess whether you have a strong sample:'
 '1. Who was sampled?'
 '2. Who was excluded?'
 '3. How was the sample collected? Was it random?'
+st.divider()
 
 '___Great job! You learned the difference between sample and population, and how to identify if a sample is representative of the population.___'
 
@@ -95,15 +97,6 @@ st.expander('Expander')
 with st.expander('How do we get the sample size ___just right___?'):
     st.write('You can calculate the sample size needed with the confidence level and the margin of error. There are many calculators online to do this, such as this one: https://www.calculator.net/sample-size-calculator.html')
 
-if st.button('🌟You are a statistical sleuth!🌟'): 
-    from streamlit_extras.let_it_rain import rain     
-    rain( 
-        emoji="🌟", 
-        font_size=54, 
-        falling_speed=5, 
-        animation_length="short", 
-        ) 
-
 'Case closed…or not? What does it ___really___ mean when someone says a result is "significantly higher" or "significantly lower"?'
 
 '__Significance__ (or the p-value) is the probability of a result occurring by chance, not due to the causal relationship you’re studying. The lower the p-value, the stronger inference you can make. You may see this number set at 0.05% or 0.01%. When reviewing reports, keep an eye out for p-value. The person presenting the data should always show this number, especially if they are trying to prove a causal relationship.'
@@ -112,20 +105,20 @@ if st.button('🌟You are a statistical sleuth!🌟'):
 st.expander('Expander') 
 with st.expander('Key Terms from Data Dan'): 
     st.write('__Significance__: the likelihood of an event occurring by chance.')
-
+st.divider()
 st.subheader('Be a signficance sleuth!')
 'Ask these questions to assess whether you have a strong sample:'
 '1. Did the presenter include the significance value (p-value?) If so, does it support the inference the presenter wants us to make?'
 '2.  Did the presenter include information on the size of the population, the size of the sample, and how they drew their sample? Is that sample randomly drawn? Is the sample a large enough size?'
 '3. Am I able to view the statistics supporting this inference?'
-
+st.divider()
 # st.image(significance.png) 
-
+''
 'Trust your gut! When you have questions about a finding, don’t be afraid to dive deeper.'
-
+''
 'You’re all set! Have fun making and analyzing inferences. See you next month with Data Dan.'
 
-if st.button('🌟You are a data star!🌟'): 
+if st.button('🌟You are a statistical sleuth!🌟'): 
     from streamlit_extras.let_it_rain import rain     
     rain( 
         emoji="🌟", 
