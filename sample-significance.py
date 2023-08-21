@@ -5,10 +5,6 @@ st.title('Data Literacy📖')
 st.subtitle('Making Inferences: Sampling and Significance')
 st.caption("10 minute read. For questions contact Jordan @ DataGovernance@perkinscoie.com")
 
-'Meet Data Dan, your new Data Literacy pal! Keep your eyes peeled for tips and tricks from Data Dan as you continue on your adventure in data literacy.'
-
-# image st.image(Data-Dan.png) 
-  
 'Grab your detective hat, today it's time to join Data Dan and sleuth out some statistics.'
 'As you have followed along with the data literacy program, you've learned to describe, analyze, and question data. In this module, you'll learn to __make and evaluate inferences__.'
 
