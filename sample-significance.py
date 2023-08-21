@@ -6,20 +6,21 @@ st.subheader('Making Inferences: Sampling and Significance')
 st.caption('10 minute read. For questions contact Jordan @ DataGovernance@perkinscoie.com')
 data_dan = Image.open('data-dan-intro.png')
 st.image(data_dan)
-'Grab your detective hat, today it’s time to join Data Dan and sleuth out some statistics.'
+
 'As you have followed along with the data literacy program, you’ve learned to describe, analyze, and question data. In this module, you’ll learn to __make and evaluate inferences__.'
 st.expander('Expander') 
 with st.expander('Tell me more about inferential statistics!'): 
     st.write('There are two types of statistics: (1) __descriptive__ statistics and (2) __inferential__ statistics. Descriptive statistics describe an ___entire___ set of data. Inferential statistics look ___only at a sample___ to make a conclusion about the population. For example, you survey 200 employees on their preferences for remote work, and use their responses to infer that the whole firm would, on average, respond the same way. The 200 employees would be your sample, and you would draw a conclusion about the whole firm (the population).')
-
-st.subheader('An introduction to sampling...')
+'Grab your detective hat, today it’s time to join Data Dan and sleuth out some statistics.'
 'It was Colonel Mustard in the study with a candlestick! Any good detective is skilled at sifting through clues to solve a mystery.'
-'Like a detective sorts through evidence to paint a bigger picture, a data analyst might conduct research to make inferences about their area of study. In data, you will use a __sample to draw inferences about a population__.'
-
 detective_dan = Image.open('detective-dan.png')
 st.image(detective_dan)
-
-'Let’s talk sampling. First, __what is a sample__? A ___sample___ describes a portion of the population from which data is collected. The ___population___ is the __whole__ group being studied.'
+'Like a detective sorts through evidence to paint a bigger picture, a data analyst might conduct research to make inferences about their area of study. A data analyst might use a __sample to draw inferences about a population__.'
+'Can we trust all the inferences we hear? Can we actually infer ___anything___ from our data?'
+'There are two main suspects carrying the secret to the strength of our inferences: __sample size__ and __significance. Help Data Dan investigate...'
+st.subheader('Suspect 1: Sampling')
+'Let’s talk sampling.'
+'First, __what is a sample__? A ___sample___ describes a portion of the population from which data is collected. The ___population___ is the __whole__ group being studied.'
 
 # image st.image(Sample-Pop.png) 
 
@@ -44,16 +45,19 @@ with st.expander(':red[__Apply it!__]✍️'):
     if st.checkbox("D. All US Citizens"):
         st.write('Close, but not quite. Remember, the population isn’t necessarily the largest group.')
 
-'Great job! Now that we know how to find the population, can you determine who should be sampled?'
-'Remember, your sample is a ___portion of the population___ from whom you are collecting data. Let’s say you’re asked to restock the vending machine in the Chicago office. To do so, you want to determine the favorite beverages in the office. Who is in your sample? Would you ask your colleague in Seattle? What about your colleague who works remotely, but is based in Chicago? If you’ve answered no to both of these, you’re correct! We want the sample to reflect the population.'
+'___Great job! Now that we know how to find the population, can you determine who should be sampled?___'
+'Remember, your sample is a ___portion of the population___ from whom you are collecting data.'
+'Let’s say you’re asked to restock the vending machine in the Chicago office. To do so, you want to determine the favorite beverages in the office. Who is in your sample? Would you ask your colleague in Seattle? What about your colleague who works remotely, but is based in Chicago? If you’ve answered no to both of these, you’re correct! We want the sample to reflect the population.'
+
 sample_pop = Image.open('sample-population.png')
 st.image(sample_pop)
+
 'Now, can you distinguish between the population and the sample?'
 
 st.expander('Expander')
 with st.expander(':red[__Apply it!__]✍️'):
     'The Data Governance Team surveys a random sample of 50 Perkins business professionals to see if the business professionals are enjoying the data literacy content.'
-    st.text('Identify the population and the sample')
+    st.text('Identify the population and the sample.')
     if st.checkbox("a. The population is the entire firm, the sample is all Perkins business professionals."):
         st.write('Not quite. We cannot draw inferences about the entire firm because they were not represented in the sample.') 
     if st.checkbox("b. The population is all business professionals working at law firms, the sample is Perkins business professionals."):
@@ -96,15 +100,16 @@ st.divider()
 
 '___Great job! You learned the difference between sample and population, and how to identify if a sample is representative of the population.___'
 
-'Let’s take this one step further. 👉 How many people do you need in your sample to make an accurate inference?'
-'If a sample size is ___too small___, you run the risk of inaccurate results. '
-'If a sample size is ___too big___, you might needlessly waste time and resources. '
-
 st.expander('Expander')
-with st.expander('How do we get the sample size ___just right___?'):
-    st.write('You can calculate the sample size needed with the confidence level and the margin of error. There are many calculators online to do this, such as this one: https://www.calculator.net/sample-size-calculator.html')
+with st.expander('Let’s take this one step further. 👉 How big should my sample be?'):
+    'If a sample size is ___too small___, you run the risk of inaccurate results. '
+    'If a sample size is ___too big___, you might needlessly waste time and resources. '
+    'How do we get the sample size ___just right___?'
+    'You can calculate the sample size needed with the confidence level and the margin of error. There are many calculators online to do this, such as this one: https://www.calculator.net/sample-size-calculator.html'
 
-'Case closed…or not? What does it ___really___ mean when someone says a result is "significantly higher" or "significantly lower"?'
+st.subheader('Suspect 2: Significance')
+
+'What does it ___really___ mean when someone says a result is "significantly higher" or "significantly lower"?'
 
 '__Significance__ (or the p-value) is the probability of a result occurring by chance, not due to the causal relationship you’re studying. The lower the p-value, the stronger inference you can make. You may see this number set at 0.05% or 0.01%. When reviewing reports, keep an eye out for p-value. The person presenting the data should always show this number, especially if they are trying to prove a causal relationship.'
 
@@ -121,7 +126,7 @@ st.subheader('Be a significance sleuth!')
 st.divider()
 # st.image(significance.png) 
 ''
-'Trust your gut! When you have questions about a finding, don’t be afraid to dive deeper.'
+'Case closed…or not? Trust your gut! When you have questions about a finding, don’t be afraid to dive deeper.'
 ''
 'You’re all set! Have fun making and analyzing inferences. See you next month with Data Dan.'
 
