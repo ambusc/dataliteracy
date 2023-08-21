@@ -93,7 +93,7 @@ st.subheader('Be a sampling sleuth!')
 
 st.expander('Expander')
 with st.expander('How do we get the sample size ___just right___?'):
-    st.write(You can calculate the sample size needed with the confidence level and the margin of error. There are many calculators online to do this, such as this one: https://www.calculator.net/sample-size-calculator.html)
+    st.write('You can calculate the sample size needed with the confidence level and the margin of error. There are many calculators online to do this, such as this one: https://www.calculator.net/sample-size-calculator.html')
 
 if st.button('🌟You are a statistical sleuth!🌟'): 
     from streamlit_extras.let_it_rain import rain     
