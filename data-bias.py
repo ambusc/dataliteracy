@@ -51,7 +51,7 @@ st.text('__Response Bias__ occurs when participants respond to a questionnaire i
 ''
 ':red[__Apply it!__]✍️'
 ##Identify the possible bias.
-st.text(The office is abuzz about a new study that came out saying that 60% of law firm employees love reading. You look closer at the study and find the options for response were “I love to read” “I like to read” and “prefer not to answer”.)
+st.text('The office is abuzz about a new study that came out saying that 60% of law firm employees love reading. You look closer at the study and find the options for response were “I love to read” “I like to read” and “prefer not to answer”.')
 st.text('What bias does this represent?')
 'Answer:' 
 '1. Selection Bias – Try again!'
