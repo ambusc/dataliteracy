@@ -115,13 +115,13 @@ with st.expander('Key Terms from Data Dan'):
 
 st.subheader('Be a signficance sleuth!')
 'Ask these questions to assess whether you have a strong sample:'
-'1. Did the presenter include the significance value (p-value?) If so, does it support the inference the presenter wants us to make? 
-'2.  Did the presenter include information on the size of the population, the size of the sample, and how they drew their sample? Is that sample randomly drawn? Is the sample a large enough size?
+'1. Did the presenter include the significance value (p-value?) If so, does it support the inference the presenter wants us to make?'
+'2.  Did the presenter include information on the size of the population, the size of the sample, and how they drew their sample? Is that sample randomly drawn? Is the sample a large enough size?'
 '3. Am I able to view the statistics supporting this inference?'
 
 # st.image(significance.png) 
 
-'Trust your gut! When you have questions about a finding, don’t be afraid to dive deeper. '
+'Trust your gut! When you have questions about a finding, don’t be afraid to dive deeper.'
 
 'You're all set! Have fun making and analyzing inferences. See you next month with Data Dan.'
 
