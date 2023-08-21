@@ -51,7 +51,7 @@ st.image(sample_pop)
 'Now, can you distinguish between the population and the sample?'
 
 st.expander('Expander')
-with st.expander(':red[__Apply it!__]✍️')
+with st.expander(':red[__Apply it!__]✍️'):
     'The Data Governance Team surveys a random sample of 50 Perkins business professionals to see if the business professionals are enjoying the data literacy content.'
     st.text('Identify the population and the sample')
     if st.checkbox("a. The population is the entire firm, the sample is all Perkins business professionals."):
@@ -72,7 +72,7 @@ st.subheader('To accurately represent the population, samples must be random.')
 'Randomized samples help reduce possible bias. Imagine you’re surveying your colleagues on if they drink coffee. You stand outside the coffee machine to survey 30 people. Think about who might cross your path: you’re more likely to catch coffee drinkers on their way to get their next cup! You want your sample to fairly reflect the population.'
 
 st.expander('Expander')
-    with st.expander(':red[__Apply it!__]✍️')
+    with st.expander(':red[__Apply it!__]✍️'):
     'You want to estimate the percentage of the entire firm that has volunteered in the last month.'
     st.text('Which approach would give you a fair sample?')
     if st.checkbox("Randomly selecting office numbers and surveying each person."):
