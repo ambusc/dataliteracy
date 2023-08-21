@@ -23,8 +23,7 @@ with st.expander('Did you know?'):
 st.subheader('Station 1: Data Collection')
 ''
 'Landing at our first station…let’s look at the first area where we might see data bias: during collection. Here we are interested in how survey questions are phrased, who is included in the response group, and how responses are collected. Let’s take a closer look.'
-''
-'__Selection Bias__ occurs when the sample was collected in an inaccurate or biased way.'
+' __Selection Bias__ occurs when the sample was collected in an inaccurate or biased way.' 
 ''
 'This might happen if we sample a __non-representative group__! Let’s say we want to know how many business professionals at the firm have pets. If we only survey business professionals who have joined our Perkins Pet Parents resource group, it is highly likely that we will overestimate the number of total business professionals who have pets. Look closely at __who__ data is being collected from.'
 ''
