@@ -24,7 +24,7 @@ st.subheader('Station 1: Data Collection')
 ''
 'Landing at our first station…let’s look at the first area where we might see data bias: during collection. Here we are interested in how survey questions are phrased, who is included in the response group, and how responses are collected. Let’s take a closer look.'
 ''
-st.divider()
+'---'
 '__Selection Bias__ occurs when the sample was collected in an inaccurate or biased way.'
 st.divider()
 ''
