@@ -17,7 +17,7 @@ st.subheader('An introduction to sampling...')
 
 # image st.image(Detective-Dan.png) 
 
-'Let's talk sampling. First, __what is a sample__? A ___sample___ describes a portion of the population from which data is collected. The ___population___ is the __whole__ group being studied.'
+'Let’s talk sampling. First, __what is a sample__? A ___sample___ describes a portion of the population from which data is collected. The ___population___ is the __whole__ group being studied.'
 
 # image st.image(Sample-Pop.png) 
 
@@ -31,7 +31,7 @@ with st.expander('Key Terms from Data Dan'):
 
 ':red[__Apply it!__]✍️'
 st.text('80% of U.S. remote workers say they work better at home.')
-st.text('What's the population?')       
+st.text('What’s the population?')       
     if st.checkbox("A. Remote workers"):
             st.write('Close, but not quite. Is there a more precise option for the population?')
     if st.checkbox("B. Remote workers in the United States"):
@@ -42,7 +42,7 @@ st.text('What's the population?')
             st.write('Close, but not quite. Remember, the population isn’t necessarily the largest group.')
 
 'Great job! Now that we know how to find the population, can you determine who should be sampled?'
-'Remember, your sample is a ___portion of the population___ from whom you are collecting data. Let's say you're asked to restock the vending machine in the Chicago office. To do so, you want to determine the favorite beverages in the office. Who is in your sample? Would you ask your colleague in Seattle? What about your colleague who works remotely, but is based in Chicago? If you’ve answered no to both of these, you’re correct! We want the sample to reflect the population.'
+'Remember, your sample is a ___portion of the population___ from whom you are collecting data. Let’s say you’re asked to restock the vending machine in the Chicago office. To do so, you want to determine the favorite beverages in the office. Who is in your sample? Would you ask your colleague in Seattle? What about your colleague who works remotely, but is based in Chicago? If you’ve answered no to both of these, you’re correct! We want the sample to reflect the population.'
 
 'Now, can you distinguish between the population and the sample?'
 
