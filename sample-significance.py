@@ -85,7 +85,7 @@ st.subheader('Be a sampling sleuth!')
 '2. Who was excluded?'
 '3. How was the sample collected? Was it random?'
 
-'___Great job! You've learned the difference between sample and population, and how to identify if a sample is representative of the population.___'
+'___Great job! You learned the difference between sample and population, and how to identify if a sample is representative of the population.___'
 
 'Let’s take this one step further. 👉 How many people do you need in your sample to make an accurate inference?'
 'If a sample size is ___too small___, you run the risk of inaccurate results. '
