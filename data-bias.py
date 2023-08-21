@@ -62,9 +62,8 @@ st.text('What bias does this represent?')
 ''
 st.subheader('Station 2: Analytics')
 'Up, up, and away to our next stop…analytics! Data bias can manifest itself in how we report out and analyze data.'
-''
 st.divider()
-__Reporting Bias__ happens when certain data is withheld from an analysis.'
+'__Reporting Bias__ happens when certain data is withheld from an analysis.'
 st.divider()
 'Let’s imagine you are handed a report looking at how our workforce has grown over the past five years. The report shows a count of all the new hires for each month. It looks like our population has exploded: 10 new hires in March, 25 in April, 15 in May… We know the data is accurate, but can you spot the bias?'
 ''
