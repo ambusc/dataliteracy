@@ -72,7 +72,7 @@ st.subheader('To accurately represent the population, samples must be random.')
 'Randomized samples help reduce possible bias. Imagine you’re surveying your colleagues on if they drink coffee. You stand outside the coffee machine to survey 30 people. Think about who might cross your path: you’re more likely to catch coffee drinkers on their way to get their next cup! You want your sample to fairly reflect the population.'
 
 st.expander('Expander')
-    with st.expander(':red[__Apply it!__]✍️'):
+with st.expander(':red[__Apply it!__]✍️'):
     st.text('You want to estimate the percentage of the entire firm that has volunteered in the last month. Which approach would give you a fair sample?')
     if st.checkbox("Randomly selecting office numbers and surveying each person."):
         st.write('Not quite. Your sample would only include people with offices – you would miss remote workers.') 
