@@ -32,14 +32,14 @@ with st.expander('Key Terms from Data Dan'):
 ':red[__Apply it!__]✍️'
 st.text('80% of U.S. remote workers say they work better at home.')
 st.text('What’s the population?')       
-    if st.checkbox("A. Remote workers"):
-            st.write('Close, but not quite. Is there a more precise option for the population?')
-    if st.checkbox("B. Remote workers in the United States"):
-            st.write('Correct! Great job!')
-    if st.checkbox("C. All workers in the United States"):
-            st.write('Close, but not quite. Is there a more precise option for the population?')
-    if st.checkbox("D. All US Citizens"):
-            st.write('Close, but not quite. Remember, the population isn’t necessarily the largest group.')
+if st.checkbox("A. Remote workers"):
+    st.write('Close, but not quite. Is there a more precise option for the population?')
+if st.checkbox("B. Remote workers in the United States"):
+    st.write('Correct! Great job!')
+if st.checkbox("C. All workers in the United States"):
+    st.write('Close, but not quite. Is there a more precise option for the population?')
+if st.checkbox("D. All US Citizens"):
+    st.write('Close, but not quite. Remember, the population isn’t necessarily the largest group.')
 
 'Great job! Now that we know how to find the population, can you determine who should be sampled?'
 'Remember, your sample is a ___portion of the population___ from whom you are collecting data. Let’s say you’re asked to restock the vending machine in the Chicago office. To do so, you want to determine the favorite beverages in the office. Who is in your sample? Would you ask your colleague in Seattle? What about your colleague who works remotely, but is based in Chicago? If you’ve answered no to both of these, you’re correct! We want the sample to reflect the population.'
@@ -49,14 +49,14 @@ st.text('What’s the population?')
 ':red[__Apply it!__]✍️'
 st.text('The Data Governance Team surveys a random sample of 50 Perkins business professionals to see if the business professionals are enjoying the data literacy content.')
 st.text('Identify the population and the sample')
-    if st.checkbox("a. The population is the entire firm, the sample is all Perkins business professionals."):
-            st.write('Not quite. We cannot draw inferences about the entire firm because they were not represented in the sample.') 
-    if st.checkbox("b. The population is all business professionals working at law firms, the sample is Perkins business professionals."): 
-            st.write('Not quite. We cannot draw inferences about business professionals in all firms because only Perkins business professionals were sampled.')
-    if st.checkbox("c. The population is all Perkins business professionals, the sample is the 50 business professionals surveyed."):
-            st.write('Correct! Great job! You are interested in business professionals, and you sampled business professionals.')
-    if st.checkbox("d. The population is everyone in the world, the sample is the 50 business professionals surveyed."):
-            st.write('Not quite. We cannot draw inferences about the entire world because they were not represented in the sample.')
+if st.checkbox("a. The population is the entire firm, the sample is all Perkins business professionals."):
+    st.write('Not quite. We cannot draw inferences about the entire firm because they were not represented in the sample.') 
+if st.checkbox("b. The population is all business professionals working at law firms, the sample is Perkins business professionals."):
+    st.write('Not quite. We cannot draw inferences about business professionals in all firms because only Perkins business professionals were sampled.')
+if st.checkbox("c. The population is all Perkins business professionals, the sample is the 50 business professionals surveyed."):
+    st.write('Correct! Great job! You are interested in business professionals, and you sampled business professionals.')
+if st.checkbox("d. The population is everyone in the world, the sample is the 50 business professionals surveyed."):
+    st.write('Not quite. We cannot draw inferences about the entire world because they were not represented in the sample.')
 
 Now you know who should have been sampled. How do you make sure the sample is fair?
 
@@ -68,16 +68,16 @@ st.subheader('To accurately represent the population, samples must be random.')
 
 ':red[__Apply it!__]✍️'
 st.text('You want to estimate the percentage of the entire firm that has volunteered in the last month. Which approach would give you a fair sample?')
-    if st.checkbox("Randomly selecting office numbers and surveying each person."):
-            st.write('Not quite. Your sample would only include people with offices – you would miss remote workers.') 
-    if st.checkbox("Surveying the entire technology department."):
-            st.write('Not quite. Your sample would only reflect the technology department, not the entire firm.')
-    if st.checkbox("Randomly selecting names from the distribution list for all attorneys."):
-            st.write('Not quite. Your sample would only include attorneys.')
-    if st.checkbox("All of the above."):
-            st.write('Not quite. Click on each answer to see why in more detail.')
-    if st.checkbox("None of the above."):  
-            st.write('Correct! Great job! None of the options give you a random sample that would reflect the entire firm. Remember, samples need to appear as close to the population as possible.')
+if st.checkbox("Randomly selecting office numbers and surveying each person."):
+    st.write('Not quite. Your sample would only include people with offices – you would miss remote workers.') 
+if st.checkbox("Surveying the entire technology department."):
+    st.write('Not quite. Your sample would only reflect the technology department, not the entire firm.')
+if st.checkbox("Randomly selecting names from the distribution list for all attorneys."):
+    st.write('Not quite. Your sample would only include attorneys.')
+if st.checkbox("All of the above."):
+    st.write('Not quite. Click on each answer to see why in more detail.')
+if st.checkbox("None of the above."):
+    st.write('Correct! Great job! None of the options give you a random sample that would reflect the entire firm. Remember, samples need to appear as close to the population as possible.')
 
 st.subheader('Be a sampling sleuth!')
 'Ask these questions to assess whether you have a strong sample:'
