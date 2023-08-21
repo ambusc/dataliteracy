@@ -5,7 +5,6 @@ st.title('Data Literacy📖')
 st.subheader("Making Inferences: Accounting for Bias")
 st.caption("10 minute read. For questions contact Jordan @ DataGovernance@perkinscoie.com")
 
-'Meet Data Dan, your new Data Literacy pal! Keep your eyes peeled for tips and tricks from Data Dan as you continue on your adventure in data literacy.'
 data_dan = Image.open('data-dan-intro.png')
 st.image(data_dan)
 ''
@@ -18,10 +17,11 @@ st.image(data_dan)
 st.expander('Expander') 
 with st.expander('Did you know?'): 
     st.write('One concern about artificial intelligence is its ability to perpetuate bias. Check out this article: https://www.weforum.org/agenda/2021/07/ai-machine-learning-bias-discrimination/')
-''
+dan_space = Image.open('space-dan.png')
+st.image(dan_space)
 'Today we are going to look through our telescope at the universe of data bias. Follow Data Dan as we explore three spaces you may encounter bias: in data collection, in analytics, and in machine learning.'
 st.subheader('Station 1: Data Collection')
-''
+
 'Landing at our first station…let’s look at the first area where we might see data bias: during collection. Here we are interested in how survey questions are phrased, who is included in the response group, and how responses are collected. Let’s take a closer look.'
 st.divider()
 ' __Selection Bias__ occurs when the sample was collected in an inaccurate or biased way.' 
@@ -45,6 +45,8 @@ st.divider()
 ''
 'This type of bias also occurs if respondents feel they are being “watched” or “judged” for their responses. Imagine you receive a survey, and there is this question: “Do you believe, as most Americans do, that employers should provide pet insurance free of charge?” Now imagine you were asked this question in person or over the phone. Studies show that when surveyed in this way, most people will try to answer in a way they think is the most socially acceptable.'
 ''
+dan_collection = Image.open('data-dan-collection.png')
+st.image(dan_collection)
 '__If you receive a report from which you want to make decisions (i.e., infer meaning)__, take a tip from Data Dan and ask…'
 '1. How was the data collected? If by a questionnaire or survey, were the questions phrased in a neutral way? Were respondents given the chance to respond accurately?'
 '2. Who is represented in the data? If using a sample to generalize about a population (e.g., the entire firm), have you checked that the sample fairly and accurately represents the population you want to learn about?'
