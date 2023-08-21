@@ -1,13 +1,13 @@
 import streamlit as st
-
-# from location import Image
+from PIL import Image
 
 st.title('Data Literacy📖') 
 st.subheader("Making Inferences: Accounting for Bias")
 st.caption("10 minute read. For questions contact Jordan @ DataGovernance@perkinscoie.com")
 
 'Meet Data Dan, your new Data Literacy pal! Keep your eyes peeled for tips and tricks from Data Dan as you continue on your adventure in data literacy.'
-# image st.image(Data-Dan.png)
+data_dan = Image.open('data-dan-intro.png')
+st.image(data_dan)
 ''
 'Data bias is all around us.'
 ''
