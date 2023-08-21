@@ -1,10 +1,11 @@
 import streamlit as st 
-# from location import Image
+from PIL import Image
 
 st.title('Data Literacy📖')
 st.subheader('Making Inferences: Sampling and Significance')
 st.caption('10 minute read. For questions contact Jordan @ DataGovernance@perkinscoie.com')
-
+data_dan = Image.open('data-dan-intro.png')
+st.image(data_dan)
 'Grab your detective hat, today it’s time to join Data Dan and sleuth out some statistics.'
 'As you have followed along with the data literacy program, you’ve learned to describe, analyze, and question data. In this module, you’ll learn to __make and evaluate inferences__.'
 st.expander('Expander') 
@@ -15,7 +16,8 @@ st.subheader('An introduction to sampling...')
 'It was Colonel Mustard in the study with a candlestick! Any good detective is skilled at sifting through clues to solve a mystery.'
 'Like a detective sorts through evidence to paint a bigger picture, a data analyst might conduct research to make inferences about their area of study. In data, you will use a __sample to draw inferences about a population__.'
 
-# image st.image(Detective-Dan.png) 
+detective_dan = Image.open('detective-dan.png')
+st.image(detective_dan)
 
 'Let’s talk sampling. First, __what is a sample__? A ___sample___ describes a portion of the population from which data is collected. The ___population___ is the __whole__ group being studied.'
 
@@ -43,7 +45,8 @@ if st.checkbox("D. All US Citizens"):
 
 'Great job! Now that we know how to find the population, can you determine who should be sampled?'
 'Remember, your sample is a ___portion of the population___ from whom you are collecting data. Let’s say you’re asked to restock the vending machine in the Chicago office. To do so, you want to determine the favorite beverages in the office. Who is in your sample? Would you ask your colleague in Seattle? What about your colleague who works remotely, but is based in Chicago? If you’ve answered no to both of these, you’re correct! We want the sample to reflect the population.'
-
+sample_pop = Image.open('sample-population.png')
+st.image(sample_pop)
 'Now, can you distinguish between the population and the sample?'
 
 ':red[__Apply it!__]✍️'
@@ -106,7 +109,7 @@ st.expander('Expander')
 with st.expander('Key Terms from Data Dan'): 
     st.write('__Significance__: the likelihood of an event occurring by chance.')
 st.divider()
-st.subheader('Be a signficance sleuth!')
+st.subheader('Be a significance sleuth!')
 'Ask these questions to assess whether you have a strong sample:'
 '1. Did the presenter include the significance value (p-value?) If so, does it support the inference the presenter wants us to make?'
 '2.  Did the presenter include information on the size of the population, the size of the sample, and how they drew their sample? Is that sample randomly drawn? Is the sample a large enough size?'
