@@ -2,11 +2,9 @@ import streamlit as st
 # from location import Image
 
 st.title('Data Literacy📖') 
-colored_header( 
-    label="Making Inferences: Accounting for Bias", 
-    description="10 minute read. For questions contact Jordan @ DataGovernance@perkinscoie.com", 
-    color_name="red-70", 
-) 
+st.title('Making Inferences: Accounting for Bias')
+st.caption('10 minute read. For questions contact Jordan @ DataGovernance@perkinscoie.com') 
+
 'Meet Data Dan, your new Data Literacy pal! Keep your eyes peeled for tips and tricks from Data Dan as you continue on your adventure in data literacy.'
 # image st.image(Data-Dan.png)
 ''
