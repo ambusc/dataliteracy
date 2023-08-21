@@ -23,8 +23,9 @@ with st.expander('Did you know?'):
 st.subheader('Station 1: Data Collection')
 ''
 'Landing at our first station…let’s look at the first area where we might see data bias: during collection. Here we are interested in how survey questions are phrased, who is included in the response group, and how responses are collected. Let’s take a closer look.'
+st.divider()
 ' __Selection Bias__ occurs when the sample was collected in an inaccurate or biased way.' 
-''
+st.divider()
 'This might happen if we sample a __non-representative group__! Let’s say we want to know how many business professionals at the firm have pets. If we only survey business professionals who have joined our Perkins Pet Parents resource group, it is highly likely that we will overestimate the number of total business professionals who have pets. Look closely at __who__ data is being collected from.'
 ''
 '__Sampling Bias__ is a common type of selection bias. Sampling bias occurs when certain people in the population are more likely to be selected than others. This can happen when respondents are not picked completely at random. A common example of this is found in surveys conducted by landline phones. Because most people with landlines are older, the results are more likely to be biased towards the perspective of older people.'
@@ -37,7 +38,9 @@ st.subheader('Station 1: Data Collection')
 ''
 'Phew! Now you know how to evaluate sampling methods. Now let’s make sure we asked questions in a fair way.'
 ''
-st.text('__Response Bias__ occurs when participants respond to a questionnaire in a way that does not reflect their actual needs or beliefs.')
+st.divider()
+'__Response Bias__ occurs when participants respond to a questionnaire in a way that does not reflect their actual needs or beliefs.'
+st.divider()
 'Why would they do this? Perhaps the right answer wasn’t an option. For example, you hand me a survey asking if I like Diet Dr. Pepper, but I’ve never tried it. The options were “yes”, “no” and “neutral”. I’m not neutral – the right answer would be “I don’t know!” – but I select “neutral” anyway. This might also occur when “prefer not to answer” is an option on a survey.'
 ''
 'This type of bias also occurs if respondents feel they are being “watched” or “judged” for their responses. Imagine you receive a survey, and there is this question: “Do you believe, as most Americans do, that employers should provide pet insurance free of charge?” Now imagine you were asked this question in person or over the phone. Studies show that when surveyed in this way, most people will try to answer in a way they think is the most socially acceptable.'
@@ -61,7 +64,7 @@ st.subheader('Station 2: Analytics')
 'Up, up, and away to our next stop…analytics! Data bias can manifest itself in how we report out and analyze data.'
 ''
 st.divider()
-'__Reporting Bias__ happens when certain data is withheld from an analysis.'
+__Reporting Bias__ happens when certain data is withheld from an analysis.'
 st.divider()
 'Let’s imagine you are handed a report looking at how our workforce has grown over the past five years. The report shows a count of all the new hires for each month. It looks like our population has exploded: 10 new hires in March, 25 in April, 15 in May… We know the data is accurate, but can you spot the bias?'
 ''
