@@ -58,7 +58,7 @@ if st.checkbox("c. The population is all Perkins business professionals, the sam
 if st.checkbox("d. The population is everyone in the world, the sample is the 50 business professionals surveyed."):
     st.write('Not quite. We cannot draw inferences about the entire world because they were not represented in the sample.')
 
-Now you know who should have been sampled. How do you make sure the sample is fair?
+'Now you know who should have been sampled. How do you make sure the sample is fair?'
 
 st.subheader('To accurately represent the population, samples must be random.')
 
