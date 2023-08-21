@@ -73,7 +73,8 @@ st.subheader('To accurately represent the population, samples must be random.')
 
 st.expander('Expander')
 with st.expander(':red[__Apply it!__]✍️'):
-    st.text('You want to estimate the percentage of the entire firm that has volunteered in the last month. Which approach would give you a fair sample?')
+    'You want to estimate the percentage of the entire firm that has volunteered in the last month.'
+    st.text('Which approach would give you a fair sample?')
     if st.checkbox("Randomly selecting office numbers and surveying each person."):
         st.write('Not quite. Your sample would only include people with offices – you would miss remote workers.') 
     if st.checkbox("Surveying the entire technology department."):
