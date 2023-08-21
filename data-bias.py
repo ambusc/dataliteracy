@@ -1,5 +1,5 @@
-import streamlit as st 
-from streamlit-extras.colored_header import colored_header 
+import streamlit as st
+from .. import extra
 # from location import Image
 
 st.title('Data Literacy📖') 
