@@ -116,5 +116,6 @@ if st.button('🌟You are a data star!🌟'):
 ''
 'This material is unquestionably complex. You do not need to be an expert in these topics. Simply knowing which questions to ask can help you make better decisions with data. If you want a second pair of eyes, reach out to your Data Governance team!'
 'You’re ready to take off! Thank you for following along on this month’s module as we explored the universe of bias. You’re out of this world!'
+
 data_star = Image.open('dan-star.png')
 st.image(data_star)
