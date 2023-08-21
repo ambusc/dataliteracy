@@ -24,7 +24,9 @@ st.subheader('Station 1: Data Collection')
 ''
 'Landing at our first station…let’s look at the first area where we might see data bias: during collection. Here we are interested in how survey questions are phrased, who is included in the response group, and how responses are collected. Let’s take a closer look.'
 ''
-st.divider('__Selection Bias__ occurs when the sample was collected in an inaccurate or biased way.')
+st.divider()
+'__Selection Bias__ occurs when the sample was collected in an inaccurate or biased way.'
+st.divider()
 ''
 'This might happen if we sample a __non-representative group__! Let’s say we want to know how many business professionals at the firm have pets. If we only survey business professionals who have joined our Perkins Pet Parents resource group, it is highly likely that we will overestimate the number of total business professionals who have pets. Look closely at __who__ data is being collected from.'
 ''
@@ -61,7 +63,9 @@ st.text('What bias does this represent?')
 st.subheader('Station 2: Analytics')
 'Up, up, and away to our next stop…analytics! Data bias can manifest itself in how we report out and analyze data.'
 ''
-st.divider('__Reporting Bias__ happens when certain data is withheld from an analysis.')
+st.divider()
+'__Reporting Bias__ happens when certain data is withheld from an analysis.'
+st.divider()
 'Let’s imagine you are handed a report looking at how our workforce has grown over the past five years. The report shows a count of all the new hires for each month. It looks like our population has exploded: 10 new hires in March, 25 in April, 15 in May… We know the data is accurate, but can you spot the bias?'
 ''
 'If you answered “data is being withheld from this report”, you’re right! You’re missing information on departures or movement around the firm – critical context to the actual “growth” shown in this report.'
@@ -81,7 +85,9 @@ st.subheader('Station 3: Machine Learning')
 ''
 'You may have heard the common saying in the data world: “garbage in, garbage out”. For our AI or machine learning, this means that the machine learning is only as good as the data it is trained upon. There are a few sources of potential bias in systems. Today we’re going to focus on only one…'
 ''
-st.divider('__System Drift__ occurs when the definition of a term changes over time.')
+st.divider()
+'__System Drift__ occurs when the definition of a term changes over time.'
+st.divider()
 ''
 '(Psst – this doesn’t just happen in machine learning, but in all of our business operations.) Let’s say we are running a report on the types of pets we cover under our pet insurance plans.. Five years ago, our plans only covered cats and dogs. Today, we cover all kinds of animals¬: “snakes”, “rabbits”, “gerbils”. The meaning has changed from “only cats and dogs” to “all domesticated animals living in your home”.'
 ''
