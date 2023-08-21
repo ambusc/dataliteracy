@@ -47,19 +47,21 @@ st.divider()
 ''
 dan_collection = Image.open('data-dan-collection.png')
 st.image(dan_collection)
-'__If you receive a report from which you want to make decisions (i.e., infer meaning)__, take a tip from Data Dan and ask…'
+':red[__If you receive a report from which you want to make decisions (i.e., infer meaning)__, take a tip from Data Dan and ask…]'
 '1. How was the data collected? If by a questionnaire or survey, were the questions phrased in a neutral way? Were respondents given the chance to respond accurately?'
 '2. Who is represented in the data? If using a sample to generalize about a population (e.g., the entire firm), have you checked that the sample fairly and accurately represents the population you want to learn about?'
 ''
-':red[__Apply it!__]✍️'
-##Identify the possible bias.
-st.text('The office is abuzz about a new study that came out saying that 60% of law firm employees love reading. You look closer at the study and find the options for response were “I love to read” “I like to read” and “prefer not to answer”.')
-st.text('What bias does this represent?')
-'Answer:' 
-'1. Selection Bias – Try again!'
-'2. Response Bias – Correct! The options are limited in a way where participants might select the answer that does not reflect their true beliefs.'
-'3. Sample Bias – Try again!'
-''
+st.expander('Expander')
+with st.expander(':red[__Apply it!__]✍️'):
+    'The office is abuzz about a new study that came out saying that 60% of law firm employees love reading. You look closer at the study and find the options for response were “I love to read” “I like to read” and “prefer not to answer”.'
+    st.text('What bias does this represent?')       
+    if st.checkbox("A. Selection Bias"):
+        st.write('Not quite. Try again?')
+    if st.checkbox("B. Response Bias"):
+        st.write('Correct! The options are limited in a way where participants might select the answer that does not reflect their true beliefs.')
+    if st.checkbox("C. Sampling Bias"):
+        st.write('Not quite. Try again?')
+
 'We’ve seen how bias might creep into our  data collection. Next, let’s look at how bias can affect our interpretation and use of data.'
 ''
 st.subheader('Station 2: Analytics')
@@ -73,7 +75,7 @@ st.divider()
 ''
 'Another example of reporting bias to watch out for is called “data fishing.” Data fishing happens when the researcher has a result they expect or want to see, so they look only for the data that confirms that result. To counteract this: if you are doing the analysis, make sure you have your research question and methods defined before you start gathering data. If you find yourself deviating from that plan because you are not getting the result you want, you may fall victim to data fishing. To counteract data fishing as a report-receiver, ask if any data was excluded from the results and, if so, why?'
 ''
-'__If you receive a report you hope to use as evidence in your decision-making__, take a tip from Data Dan and ask…'
+':red[__If you receive a report you hope to use as evidence in your decision-making__, take a tip from Data Dan and ask…]'
 '1. Is there any data being withheld? Why?'
 '2. Does the data support the question being asked?'
 '3. What do I expect to see in this data? Is that affecting my analysis?'
@@ -94,7 +96,7 @@ st.divider()
 ''
 'Not to sound biased…but this is a reason data governance is important! (You can find the meanings of common business terms and acronyms at the firm using our data catalog, Collibra.) If we maintain and organize our data, we reduce the possibility for system drift. This makes our data more accurate and reliable.'
 ''
-'__If you’re getting information from a machine__, take a tip from Data Dan and ask…'
+':red[__If you’re getting information from a machine__, take a tip from Data Dan and ask…]'
 '1. How are each of the data fields defined? Have those definitions changed over time?'
 '2. How is the quality of the data ensured?'
 '3. Can I see, in plain language, how the model was trained? Do I notice any biased logic in the way the model was trained?'
