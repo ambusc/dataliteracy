@@ -108,12 +108,10 @@ if st.button('🌟You are a statistical sleuth!🌟'):
 
 '__Significance__ (or the p-value) is the probability of a result occurring by chance, not due to the causal relationship you’re studying. The lower the p-value, the stronger inference you can make. You may see this number set at 0.05% or 0.01%. When reviewing reports, keep an eye out for p-value. The person presenting the data should always show this number, especially if they are trying to prove a causal relationship.'
 
-Essentially, significance level is a way of measuring the reliability of the data. How strong is your inference?
+'Essentially, significance level is a way of measuring the reliability of the data. How strong is your inference?'
 st.expander('Expander') 
 with st.expander('Key Terms from Data Dan'): 
     st.write('__Significance__: the likelihood of an event occurring by chance.')
-
-
 
 st.subheader('Be a signficance sleuth!')
 'Ask these questions to assess whether you have a strong sample:'
