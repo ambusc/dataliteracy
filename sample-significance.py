@@ -31,17 +31,18 @@ with st.expander('Key Terms from Data Dan'):
 
 'Mrs. Peacock, Professor Plum, Mr. Green, Colonel Mustard. Just like we need to figure out our key suspects, we need to determine __who__ is in our population. Are we interested in everyone in the firm? Just business services? Just attorneys? All law firm employees in the world? '
 
-':red[__Apply it!__]✍️'
-st.text('80% of U.S. remote workers say they work better at home.')
-st.text('What’s the population?')       
-if st.checkbox("A. Remote workers"):
-    st.write('Close, but not quite. Is there a more precise option for the population?')
-if st.checkbox("B. Remote workers in the United States"):
-    st.write('Correct! Great job!')
-if st.checkbox("C. All workers in the United States"):
-    st.write('Close, but not quite. Is there a more precise option for the population?')
-if st.checkbox("D. All US Citizens"):
-    st.write('Close, but not quite. Remember, the population isn’t necessarily the largest group.')
+st.expander('Expander')
+with st.expander(':red[__Apply it!__]✍️'):
+    st.text('80% of U.S. remote workers say they work better at home.')
+    st.text('What’s the population?')       
+    if st.checkbox("A. Remote workers"):
+        st.write('Close, but not quite. Is there a more precise option for the population?')
+    if st.checkbox("B. Remote workers in the United States"):
+        st.write('Correct! Great job!')
+    if st.checkbox("C. All workers in the United States"):
+        st.write('Close, but not quite. Is there a more precise option for the population?')
+    if st.checkbox("D. All US Citizens"):
+        st.write('Close, but not quite. Remember, the population isn’t necessarily the largest group.')
 
 'Great job! Now that we know how to find the population, can you determine who should be sampled?'
 'Remember, your sample is a ___portion of the population___ from whom you are collecting data. Let’s say you’re asked to restock the vending machine in the Chicago office. To do so, you want to determine the favorite beverages in the office. Who is in your sample? Would you ask your colleague in Seattle? What about your colleague who works remotely, but is based in Chicago? If you’ve answered no to both of these, you’re correct! We want the sample to reflect the population.'
