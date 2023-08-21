@@ -93,7 +93,8 @@ st.divider()
 st.divider()
 ''
 '(Psst – this doesn’t just happen in machine learning, but in all of our business operations.) Let’s say we are running a report on the types of pets we cover under our pet insurance plans.. Five years ago, our plans only covered cats and dogs. Today, we cover all kinds of animals¬: “snakes”, “rabbits”, “gerbils”. The meaning has changed from “only cats and dogs” to “all domesticated animals living in your home”.'
-''
+''dan_drift = Image.open('dan-drift.png')
+st.image(dan_drift)
 'Not to sound biased…but this is a reason data governance is important! (You can find the meanings of common business terms and acronyms at the firm using our data catalog, Collibra.) If we maintain and organize our data, we reduce the possibility for system drift. This makes our data more accurate and reliable.'
 ''
 ':red[__If you’re getting information from a machine__, take a tip from Data Dan and ask…]'
@@ -115,3 +116,5 @@ if st.button('🌟You are a data star!🌟'):
 ''
 'This material is unquestionably complex. You do not need to be an expert in these topics. Simply knowing which questions to ask can help you make better decisions with data. If you want a second pair of eyes, reach out to your Data Governance team!'
 'You’re ready to take off! Thank you for following along on this month’s module as we explored the universe of bias. You’re out of this world!'
+data_star = Image.open('dan-star.png')
+st.image(data_star)
