@@ -3,11 +3,10 @@ import streamlit as st
 
 st.title('Data Literacy📖') 
 st.subtitle('Making Inferences: Sampling and Significance')
-st.caption("10 minute read. For questions contact Jordan @ DataGovernance@perkinscoie.com")
+st.caption('10 minute read. For questions contact Jordan @ DataGovernance@perkinscoie.com')
 
-'Grab your detective hat, today it's time to join Data Dan and sleuth out some statistics.'
+'Grab your detective hat, today it is time to join Data Dan and sleuth out some statistics.'
 'As you have followed along with the data literacy program, you've learned to describe, analyze, and question data. In this module, you'll learn to __make and evaluate inferences__.'
-
 st.expander('Expander') 
 with st.expander('Tell me more about inferential statistics!'): 
     st.write('There are two types of statistics: (1) __descriptive__ statistics and (2) __inferential__ statistics. Descriptive statistics describe an ___entire___ set of data. Inferential statistics look ___only at a sample___ to make a conclusion about the population. For example, you survey 200 employees on their preferences for remote work, and use their responses to infer that the whole firm would, on average, respond the same way. The 200 employees would be your sample, and you would draw a conclusion about the whole firm (the population).')
