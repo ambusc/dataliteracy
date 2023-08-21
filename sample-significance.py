@@ -123,7 +123,7 @@ st.subheader('Be a signficance sleuth!')
 
 'Trust your gut! When you have questions about a finding, don’t be afraid to dive deeper.'
 
-'You're all set! Have fun making and analyzing inferences. See you next month with Data Dan.'
+'You’re all set! Have fun making and analyzing inferences. See you next month with Data Dan.'
 
 if st.button('🌟You are a data star!🌟'): 
     from streamlit_extras.let_it_rain import rain     
