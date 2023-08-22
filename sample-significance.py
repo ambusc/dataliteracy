@@ -12,7 +12,7 @@ st.expander('Expander')
 with st.expander('Tell me more about inferential statistics!'): 
     st.write('There are two types of statistics: (1) __descriptive__ statistics and (2) __inferential__ statistics. Descriptive statistics describe an ___entire___ set of data. Inferential statistics look ___only at a sample___ to make a conclusion about the population. For example, you survey 200 employees on their preferences for remote work, and use their responses to infer that the whole firm would, on average, respond the same way. The 200 employees would be your sample, and you would draw a conclusion about the whole firm (the population).')
 'Grab your detective hat, today it’s time to join Data Dan and sleuth out some statistics.'
-detective_dan = Image.open('detective-dan.png')
+detective_dan = Image.open('detectivedan.png')
 st.image(detective_dan)
 'Like a detective sorts through evidence to paint a bigger picture, a data analyst might conduct research to make inferences about their area of study. A data analyst might use a __sample to draw inferences about a population__.'
 'Can we trust all the inferences we hear? Can we actually infer ___anything___ from our data?'
@@ -89,6 +89,13 @@ with st.expander(':red[__Apply it!__]✍️'):
     if st.checkbox("None of the above."):
         st.write('Correct! Great job! None of the options give you a random sample that would reflect the entire firm. Remember, samples need to appear as close to the population as possible.')
 
+st.expander('Expander')
+with st.expander('Let’s take this one step further. 👉 How big should my sample be?'):
+    'If a sample size is ___too small___, you run the risk of inaccurate results. '
+    'If a sample size is ___too big___, you might needlessly waste time and resources. '
+    'How do we get the sample size ___just right___?'
+    'You can calculate the sample size needed with the confidence level and the margin of error. There are many calculators online to do this, such as this one: https://www.calculator.net/sample-size-calculator.html'
+
 st.divider()
 st.subheader('Be a sampling sleuth!')
 'Ask these questions to assess whether you have a strong sample:'
@@ -99,20 +106,15 @@ st.divider()
 
 '___Great job! You learned the difference between sample and population, and how to identify if a sample is representative of the population.___'
 
-st.expander('Expander')
-with st.expander('Let’s take this one step further. 👉 How big should my sample be?'):
-    'If a sample size is ___too small___, you run the risk of inaccurate results. '
-    'If a sample size is ___too big___, you might needlessly waste time and resources. '
-    'How do we get the sample size ___just right___?'
-    'You can calculate the sample size needed with the confidence level and the margin of error. There are many calculators online to do this, such as this one: https://www.calculator.net/sample-size-calculator.html'
-
 st.subheader('Suspect 2: Significance')
 
 'What does it ___really___ mean when someone says a result is "significantly higher" or "significantly lower"?'
 
-'__Significance__ (or the p-value) is the probability of a result occurring by chance, not due to the causal relationship you’re studying. The lower the p-value, the stronger inference you can make. You may see this number set at 0.05% or 0.01%. When reviewing reports, keep an eye out for p-value. The person presenting the data should always show this number, especially if they are trying to prove a causal relationship.'
+'__Significance__ (or the p-value) is the probability of a result occurring by chance, not due to the causal relationship you’re studying.'
+'Essentially, significance level is a way of measuring the ___reliability___ of the data. How strong is your inference?'
 
-'Essentially, significance level is a way of measuring the reliability of the data. How strong is your inference?'
+'The __lower the p-value__, the __stronger the inference__ you can make. You may see this number set at 0.05% or 0.01%. When reviewing reports, keep an eye out for p-value. The person presenting the data should always show this number, especially if they are trying to prove a causal relationship.'
+
 st.expander('Expander') 
 with st.expander('Key Terms from Data Dan'): 
     st.write('__Significance__: the likelihood of an event occurring by chance.')
@@ -125,7 +127,8 @@ st.subheader('Be a significance sleuth!')
 st.divider()
 # st.image(significance.png) 
 ''
-'Case closed…or not? Trust your gut! When you have questions about a finding, don’t be afraid to dive deeper.'
+st.header('Case closed…or not?')
+'Trust your gut! When you have questions about a finding, don’t be afraid to dive deeper.'
 ''
 'You’re all set! Have fun making and analyzing inferences. See you next month with Data Dan.'
 
