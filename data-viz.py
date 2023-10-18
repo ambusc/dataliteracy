@@ -34,13 +34,13 @@ with st.expander('When might you want to use a data visualization?'):
     st.write('Correct! Data visualizations can be used to summarize, communicate, or emphasize data.')
 
 'But without thoughtful design and accurate data, a visualization may be misleading. Like the Purple Green Blue brain teaser, a visualization might be intentionally designed to mislead. (Ever have a Facebook friend share an infographic that makes you pause?) But a visualization might be accidentally misleading, with a poor use of visuals or too much clutter.'
-'Today we’ll explore tips to break down data visualizations so you can be confident in your use and interpretation of visuals. Let's get started!'
+'Today we’ll explore tips to break down data visualizations so you can be confident in your use and interpretation of visuals. Let’s get started!'
 
 st.subheader('Eyes on Data: Deconstructing Visualizations')
 
 # [Image - Sample Visualization] 
 
-'Recall the chart presented above with the data about favorite colors. Let's add a scenario to this chart and walk through it together.'
+'Recall the chart presented above with the data about favorite colors. Let’s add a scenario to this chart and walk through it together.'
 'THE SCENE: The firm Data Dan & Associates is undergoing a rebrand. As part of this rebrand, they want to change their current color scheme. Visual Valerie is contracted to lead the rebrand for Data Dan, starting with a new logo. After lots of research into the culture and values of the firm, she unveils her pitch for a new logo to a team of stakeholders.'
 '“Red would be the perfect color for your logo!” she claims, showing a few dazzling graphics displaying her recent research. You are a stakeholder hearing Valerie’s pitch. Before casting your vote, you want to take a closer look.'
 'By identifying context, interpreting the data, and examining the visual components, we will be able to draw our own conclusions about Visual Valerie’s pitch.'
@@ -57,7 +57,7 @@ st.subheader('Step Two: Interpret the data')
 
 # [Image – Data behind Viz] 
 
-'You've already identified the context and understand that the Visual Valerie is hoping to convince you to adopt her logo. Do you think this is a complete set of data? Do you trust the way she collected this data? Do you trust the way she presented the data?'
+'You’ve already identified the context and understand that the Visual Valerie is hoping to convince you to adopt her logo. Do you think this is a complete set of data? Do you trust the way she collected this data? Do you trust the way she presented the data?'
 
 st.expander('Expander')
 with st.expander('Deceiving Data Depictions: The Story of the Datasaurus'):
@@ -80,7 +80,7 @@ st.subheader('Format')
 
 st.expander('Expander')
 with st.expander('Dive deeper: Choosing the right chart'):
-  'If you're constructing data visualizations, here’s a great flow chart to set you on the right track.'
+  'If you’re constructing data visualizations, here’s a great flow chart to set you on the right track.'
 # chart-chooser-2020.pdf (typepad.com) 
 
 st.subheader('Colors')
@@ -105,7 +105,7 @@ st.subheader('Scales and Labels')
 
 'Deconstructing data visualizations means slowing down to digest what you’re actually seeing. Do you find Visual Valerie’s logo pitch convincing? Maybe, maybe not – but now you know that decision is in your hands, and you were able to interpret all the data on your own.'
 st.divider()
-st.subheader('Data Dan's Questions to Ask:')
+st.subheader('Data Dan’s Questions to Ask:')
 # Am I being persuaded of anything?
 # Do I trust the data behind the visualization?
 # Do I have the context to interpret this information?
