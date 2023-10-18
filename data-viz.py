@@ -34,7 +34,7 @@ with st.expander('When might you want to use a data visualization?'):
     st.write('Correct! Data visualizations can be used to summarize, communicate, or emphasize data.')
 
 'But without thoughtful design and accurate data, a visualization may be misleading. Like the Purple Green Blue brain teaser, a visualization might be intentionally designed to mislead. (Ever have a Facebook friend share an infographic that makes you pause?) But a visualization might be accidentally misleading, with a poor use of visuals or too much clutter.'
-'Today we'll explore tips to break down data visualizations so you can be confident in your use and interpretation of visuals. Let's get started!'
+'Today we’ll explore tips to break down data visualizations so you can be confident in your use and interpretation of visuals. Let's get started!'
 
 st.subheader('Eyes on Data: Deconstructing Visualizations')
 
