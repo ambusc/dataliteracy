@@ -8,12 +8,13 @@ st.caption('10 minute read. For questions contact Jordan @ DataGovernance@perkin
 st.subheader('Eyes on Data')
 
 'Ever seen a brain teaser that looks like this?'
-'List the color you see, not the word: __:orange[Purple] :violet[Green] :blue[Blue] :green[Red] :red[Green] :blue[Orange] :red[Red]__'
+st.text('List the color you see, not the word: __:orange[Purple] :violet[Green] :blue[Blue] :green[Red] :red[Green] :blue[Orange] :red[Red]__')
 
 'Can you do it easily? Or does your brain try to trick you? What you expect to see might affect your ability to interpret what you ___actually___ see!'
 
 'Keeping with the colorful examples, let’s say you are interested in the favorite colors of people on your team. You ask around and come up with this list:'
-'Purple Purple Purple Purple Purple Green Green Green Green Green Green Green Green Blue Blue Blue Blue Blue Blue Red Red Red Red Red Red Red Red Red Orange Orange Orange Orange'
+st.text('Purple Purple Purple Purple Purple Green Green Green Green Green Green Green Green Blue') 
+st.text('Blue Blue Blue Blue Blue Red Red Red Red Red Red Red Red Red Orange Orange Orange Orange')
 'With only two lines of text, it probably wouldn’t take you too long to count each color. There’s nothing necessarily distracting or confusing within these two lines of text. You could even make a list and note that there are 5 purples, 8 greens, 6 blues, 9 reds, and 4 oranges.'
 'But what if you want a better way to understand and communicate the same information? Enter, __data visualization__. Imagine you’re presented with this:'
 
