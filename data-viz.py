@@ -8,7 +8,7 @@ st.caption('10 minute read. For questions contact Jordan @ DataGovernance@perkin
 st.subheader('Eyes on Data')
 
 'Ever seen a brain teaser that looks like this?'
-'List the color you see, not the word: Purple Green Blue Red Green Orange Red'
+'List the color you see, not the word: :orange[Purple] :violet[Green] :blue[Blue] :green[Red] :red[Green] :blue[Orange] :red[Red]'
 
 'Can you do it easily? Or does your brain try to trick you? What you expect to see might affect your ability to interpret what you ___actually___ see!'
 
@@ -33,7 +33,7 @@ with st.expander('When might you want to use a data visualization?'):
   if st.checkbox("d. All of the above!"):
     st.write('Correct! Data visualizations can be used to summarize, communicate, or emphasize data.')
 
-'But without __thoughtful design__ and __accurate data__, a visualization may be misleading. Like the Purple Green Blue brain teaser, a visualization might be intentionally designed to mislead. (Ever have a Facebook friend share an infographic that makes you pause?) But a visualization might be accidentally misleading, with a poor use of visuals or too much clutter.'
+'But without __thoughtful design__ and __accurate data__, a visualization may be misleading. Like the :orange[Purple] :violet[Green] :blue[Blue] brain teaser, a visualization might be intentionally designed to mislead. (Ever have a Facebook friend share an infographic that makes you pause?) But a visualization might be accidentally misleading, with a poor use of visuals or too much clutter.'
 'Today we’ll explore tips to break down data visualizations so you can be __confident in your use and interpretation of visuals__. Let’s get started!'
 
 st.subheader('Eyes on Data: Deconstructing Visualizations')
@@ -85,8 +85,8 @@ with st.expander('Dive deeper: Choosing the right chart'):
 
 st.subheader('___Colors___')
 
-'At the start of this module, you saw this as part of the brain teaser: Red Green.'
-'What if, instead of color names, it read: No Yes. Or Stop Go? Your color choice may imply certain outcomes or concepts.'
+'At the start of this module, you saw this as part of the brain teaser: :green[Red] :red[Green].'
+'What if, instead of color names, it read: :green[No] :red[Yes]. Or :green[Stop] :red[Go]? Your color choice may imply certain outcomes or concepts.'
 
 '__High contrast__ in colors might similarly trick your brain into thinking there’s a bigger difference between variables than might actually be present. Think about a heat map of the weather where you see bright red and sunny yellow. If you’re expecting the bright red weather region to be around 100 degrees, you’d think the yellow weather would imply a much lower (but still warm) temperature. It would be misleading to have the yellow region represent freezing weather, or very hot weather.'
 
