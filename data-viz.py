@@ -8,7 +8,7 @@ st.caption('10 minute read. For questions contact Jordan @ DataGovernance@perkin
 st.subheader('Eyes on Data')
 
 'Ever seen a brain teaser that looks like this?'
-'___List the color you see, not the word: :orange[Purple] :violet[Green] :blue[Blue] :green[Red] :red[Green] :blue[Orange] :red[Red]___')
+'___List the color you see, not the word: :orange[Purple] :violet[Green] :blue[Blue] :green[Red] :red[Green] :blue[Orange] :red[Red]___'
 
 'Can you do it easily? Or does your brain try to trick you? What you expect to see might affect your ability to interpret what you ___actually___ see!'
 
