@@ -5,8 +5,6 @@ st.title('Data Literacy📖')
 st.subheader('Deconstructing Data Visualizations')
 st.caption('10 minute read. For questions contact Jordan @ DataGovernance@perkinscoie.com')
 
-st.subheader('Eyes on Data')
-
 'Ever seen a brain teaser that looks like this?'
 '___List the color you see, not the word: :orange[Purple] :violet[Green] :blue[Blue] :green[Red] :red[Green] :blue[Orange] :red[Red]___'
 
@@ -34,7 +32,7 @@ with st.expander('When might you want to use a data visualization?'):
   if st.checkbox("d. All of the above!"):
     st.write('Correct! Data visualizations can be used to summarize, communicate, or emphasize data.')
 
-'But without __thoughtful design__ and __accurate data__, a visualization may be misleading. Like the :orange[Purple] :violet[Green] :blue[Blue] brain teaser, a visualization might be intentionally designed to mislead. (Ever have a Facebook friend share an infographic that makes you pause?) But a visualization might be accidentally misleading, with a poor use of visuals or too much clutter.'
+'But without __thoughtful design__ and __accurate data__, a visualization may be misleading. Like the ___:orange[Purple] :violet[Green] :blue[Blue]___ brain teaser, a visualization might be intentionally designed to mislead. (Ever have a Facebook friend share an infographic that makes you pause?) But a visualization might be accidentally misleading, with a poor use of visuals or too much clutter.'
 'Today we’ll explore tips to break down data visualizations so you can be __confident in your use and interpretation of visuals__. Let’s get started!'
 
 st.subheader('Eyes on Data: Deconstructing Visualizations')
