@@ -4,7 +4,7 @@ from PIL import Image
 st.title('Data Literacy📖')
 st.subheader('Deconstructing Data Visualizations')
 st.caption('10 minute read. For questions contact Jordan @ DataGovernance@perkinscoie.com')
-
+st.divider()
 'Ever seen a brain teaser that looks like this?'
 '___List the color you see, not the word: :orange[Purple] :violet[Green] :blue[Blue] :green[Red] :red[Green] :blue[Orange] :red[Red]___'
 
@@ -16,7 +16,8 @@ st.caption('10 minute read. For questions contact Jordan @ DataGovernance@perkin
 'With only two lines of text, it probably wouldn’t take you too long to count each color. There’s nothing necessarily distracting or confusing within these two lines of text. You could even make a list and note that there are 5 purples, 8 greens, 6 blues, 9 reds, and 4 oranges.'
 'But what if you want a better way to understand and communicate the same information? Enter, __data visualization__. Imagine you’re presented with this:'
 
-# [Chart]
+colorchart1 = Image.open('color-chart.png')
+st.image(colorchart1)
 
 'How much faster and easier was it for you to pull the insights out of this graphic versus the string of words? (Psst – do you notice anything that can be improved with this chart? Keep reading to see if you’ve spotted it as we break this apart together!)'
 '__Data Visualization__ can be a fantastic way to __quickly and clearly communicate a story with data__. This might help you __share your data__ in a memorable way, or __emphasize a particular point__. And if you’re analyzing data, a data visualization might help you __identify new insights__ from your data, like patterns or outliers.'
@@ -73,7 +74,8 @@ st.subheader('Step Three: Scan for Effective Visuals')
 st.subheader('___Format___')
 'Starting at the broadest point – the __chart style__ itself. Ask, is this the best format to display this information?'
 
-# [Image – Chart Types]
+charttypes = Image.open('chart-types.png')
+st.image(charttypes)
 
 'Maybe it’s the right chart or graphic for the dataset, but there are too many fields being used. Or perhaps it’s simply the wrong chart – for example, you would expect a pie chart to represent a “parts of a whole” relationship.'
 
@@ -95,7 +97,8 @@ st.subheader('___Scales and Labels___')
 
 'Another mistake in data visualization is assigning __labels and scales__ that are ___inconsistent___ with the data. Is there a big jump between numbers that isn’t clear?'
 
-# [Chart with bar lines too close together or too far apart] 
+scaleslabels = Image.open('scales-labels.png')
+st.image(scaleslabels)
 
 'Are the axes clearly labeled so the audience can tell what they are supposed to read?'
 
@@ -110,6 +113,8 @@ st.subheader('Data Dan’s Questions to Ask:')
 '2. Do I trust the data behind the visualization?'
 '3. Do I have the context to interpret this information?'
 '4. Is this the correct format to display this information? Is anything hidden or obscured?'
+davincidan = Image.open('da-vinci-dan.png')
+st.image(davincidan)
 st.divider()
 st.subheader('Data Visualization Resources')
 
