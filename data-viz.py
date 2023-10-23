@@ -63,7 +63,7 @@ st.expander('Expander')
 with st.expander('Deceiving Data Depictions: The Story of the Datasaurus'):
   'In past data literacy modules, you’ve learned to describe data using mean, median, and correlation. A data visualization might paint a different picture of your data – literally.'
   'Data scientists mapped 12 __wildly__ different datasets having the same mean, median, and correlation. Even though these three summary statistics are the same, check out just how different the visualizations are below:'
-# https://redirect.viglink.com/?format=go&jsonp=vglnk_169723894958410&key=949efb41171ac6ec1bf7f206d57e90b8&libId=lnp88yqf01021u9s000UA4u49hwcb&loc=https%3A%2F%2Fwww.r-bloggers.com%2F2017%2F05%2Fthe-datasaurus-dozen%2F&v=1&out=https%3A%2F%2Fwww.autodeskresearch.com%2Fpublications%2Fsamestats&ref=https%3A%2F%2Fwww.bing.com%2F&title=The%20Datasaurus%20Dozen%20%7C%20R-bloggers&txt= 
+  '[click here](https://redirect.viglink.com/?format=go&jsonp=vglnk_169723894958410&key=949efb41171ac6ec1bf7f206d57e90b8&libId=lnp88yqf01021u9s000UA4u49hwcb&loc=https%3A%2F%2Fwww.r-bloggers.com%2F2017%2F05%2Fthe-datasaurus-dozen%2F&v=1&out=https%3A%2F%2Fwww.autodeskresearch.com%2Fpublications%2Fsamestats&ref=https%3A%2F%2Fwww.bing.com%2F&title=The%20Datasaurus%20Dozen%20%7C%20R-bloggers&txt=)'
 
 st.subheader('Step Three: Scan for Effective Visuals')
 
@@ -81,8 +81,7 @@ st.image(charttypes)
 
 st.expander('Expander')
 with st.expander('Dive deeper: Choosing the right chart'):
-  'If you’re constructing data visualizations, here’s a great flow chart to set you on the right track.'
-# chart-chooser-2020.pdf (typepad.com) 
+  'If you’re constructing data visualizations, [here’s a great flow chart](https://extremepresentation.typepad.com/files/chart-chooser-2020.pdf) to set you on the right track.'
 
 st.subheader('___Colors___')
 
@@ -90,8 +89,6 @@ st.subheader('___Colors___')
 'What if, instead of color names, it read: :green[No] :red[Yes]. Or :green[Stop] :red[Go]? Your color choice may imply certain outcomes or concepts.'
 
 '__High contrast__ in colors might similarly trick your brain into thinking there’s a bigger difference between variables than might actually be present. Think about a heat map of the weather where you see bright red and sunny yellow. If you’re expecting the bright red weather region to be around 100 degrees, you’d think the yellow weather would imply a much lower (but still warm) temperature. It would be misleading to have the yellow region represent freezing weather, or very hot weather.'
-
-# [Image with weather example] 
 
 st.subheader('___Scales and Labels___')
 
@@ -118,7 +115,7 @@ st.image(davincidan)
 st.divider()
 st.subheader('Data Visualization Resources')
 
-'Want to learn more about Data Visualization at the firm? Check out Data Visualization Resources on Connections.'
-'Ready to build your own data visualization? Check out this introductory video to PowerBI and more on LearningSite: Power BI 101 Video. Reach out to the Data Visualization team to join the PowerBI community.'
+'Want to learn more about Data Visualization at the firm? Check out [Data Visualization Resources on Connections](http://connections/department/technology/DataMgmt/Pages/Data%20Visualization.aspx).'
+'Ready to build your own data visualization? Check out this [introductory video to PowerBI](http://perkinscoie.universitysite.com/UniversitySitePerkinsCoie/Learner/Course?p=1&id=854) and more on [LearningSite](https://perkinscoie.universitysite.com/UniversitySitePerkinsCoie/Learner/tag?id=59). Reach out to the Data Visualization team to join the PowerBI community.'
 'Other questions about Data Visualization? Please contact Bennie @ BLopez@perkinscoie.com.'
 'Thanks for following along! If you have any questions about this module or past data literacy content, please email Jordan @ DataGovernance@perkinscoie.com.'
