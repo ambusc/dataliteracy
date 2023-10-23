@@ -62,8 +62,7 @@ st.subheader('Step Two: Interpret the data')
 st.expander('Expander')
 with st.expander('Deceiving Data Depictions: The Story of the Datasaurus'):
   'In past data literacy modules, you’ve learned to describe data using mean, median, and correlation. A data visualization might paint a different picture of your data – literally.'
-  'Data scientists mapped 12 __wildly__ different datasets having the same mean, median, and correlation. Even though these three summary statistics are the same, check out just how different the visualizations are below:'
-  '[click here](https://redirect.viglink.com/?format=go&jsonp=vglnk_169723894958410&key=949efb41171ac6ec1bf7f206d57e90b8&libId=lnp88yqf01021u9s000UA4u49hwcb&loc=https%3A%2F%2Fwww.r-bloggers.com%2F2017%2F05%2Fthe-datasaurus-dozen%2F&v=1&out=https%3A%2F%2Fwww.autodeskresearch.com%2Fpublications%2Fsamestats&ref=https%3A%2F%2Fwww.bing.com%2F&title=The%20Datasaurus%20Dozen%20%7C%20R-bloggers&txt=)'
+  'Data scientists mapped 12 __wildly__ different datasets having the same mean, median, and correlation. Even though these three summary statistics are the same, [check out just how different the visualizations are.](https://redirect.viglink.com/?format=go&jsonp=vglnk_169723894958410&key=949efb41171ac6ec1bf7f206d57e90b8&libId=lnp88yqf01021u9s000UA4u49hwcb&loc=https%3A%2F%2Fwww.r-bloggers.com%2F2017%2F05%2Fthe-datasaurus-dozen%2F&v=1&out=https%3A%2F%2Fwww.autodeskresearch.com%2Fpublications%2Fsamestats&ref=https%3A%2F%2Fwww.bing.com%2F&title=The%20Datasaurus%20Dozen%20%7C%20R-bloggers&txt=)'
 
 st.subheader('Step Three: Scan for Effective Visuals')
 
